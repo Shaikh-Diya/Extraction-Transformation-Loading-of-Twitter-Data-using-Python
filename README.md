@@ -1,1 +1,3 @@
 # Extraction-Transformation-Loading-of-Twitter-Data-using-Python
+
+In this project, I created a Twitter account where I obtained the access tokens, access secret keys, consumer tokens and consumer secret keys. I used these credentials to access the Twitter API to extract the twitter data (tweets and retweets) according to the keywords: Canada, Halifax, University, Dalhousie University and Canada Education for data processing to find the frequnecy of word count in Spark. The extracted data is cleaned by removing URLs, special characters like hashtags, emoticons and processed in Spark to find the frequency count of certain words that matched with the given keywords like "education", "Canada", "university", etc. The data is then stored (loaded) in MongoDB. 
